@@ -1,0 +1,251 @@
+/*This file has been modified for this project. Use git diff prior to updating.*/
+/*
+Document   : jquery.pnotify.default.css
+Created on : Nov 23, 2009, 3:14:10 PM
+Author     : Hunter Perrin
+Version    : 1.2.0
+Link       : http://pinesframework.org/pnotify/
+Description:
+	Default styling for Pines Notify jQuery plugin.
+*/
+/* -- Notice */
+.ui-pnotify {
+  top: 25px;
+  right: 25px;
+  position: absolute;
+  height: auto;
+  /* Ensures notices are above everything */
+
+  z-index: 9999;
+}
+/* Hides position: fixed from IE6 */
+html > body .ui-pnotify {
+  position: fixed;
+}
+.ui-pnotify-container {
+  background-position: 0 0;
+  padding: 20px;
+  height: auto;
+  margin: 0;
+}
+.ui-pnotify-container.alert {
+  background-color: rgba(33, 145, 203, 0.9);
+  border: 0;
+  border-radius: 0;
+  color: #FFF;
+}
+.ui-pnotify-container:hover .ui-pnotify-closer {
+  visibility: visible !important;
+}
+.ui-pnotify-sharp {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.ui-pnotify-closer,
+.ui-pnotify-sticker {
+  float: right;
+  margin-left: .2em;
+}
+.ui-pnotify-closer {
+  background-image: url("alerts/alert-icon-close.png");
+  display: block;
+  height: 40px;
+  width: 40px;
+  display: block;
+  height: 14px;
+  width: 14px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  .ui-pnotify-closer {
+    background-image: url("alerts/alert-icon-close@2x.png");
+    background-size: 14px 14px auto;
+  }
+}
+.ui-pnotify-title {
+  color: #FFF;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  display: block;
+}
+.ui-pnotify-text {
+  font-family: arial, sans-serif;
+  display: block;
+  font-size: 12px;
+  padding-left: 52px;
+}
+.ui-pnotify-icon,
+.ui-pnotify-icon span {
+  display: block;
+  float: left;
+  margin-right: 6px;
+}
+/* -- History Pulldown */
+.ui-pnotify-history-container {
+  position: absolute;
+  top: 0;
+  right: 18px;
+  width: 70px;
+  border-top: none;
+  padding: 0;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  /* Ensures history container is above notices. */
+
+  z-index: 10000;
+}
+.ui-pnotify-history-container .ui-pnotify-history-header {
+  padding: 2px;
+}
+.ui-pnotify-history-container button {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+.ui-pnotify-history-container .ui-pnotify-history-pulldown {
+  display: block;
+  margin: 0 auto;
+}
+/* Alternate stack initial positioning. */
+.ui-pnotify.stack-topleft {
+  top: 25px;
+  left: 25px;
+  right: auto;
+}
+.ui-pnotify.stack-bottomleft {
+  bottom: 25px;
+  left: 25px;
+  top: auto;
+  right: auto;
+}
+/* This one is done through code, to show how it is done. Look down
+			at the stack_bottomright variable in the JavaScript below. */
+.ui-pnotify.stack-bottomright {
+  /* These are just CSS default values to reset the pnotify CSS. */
+
+  right: auto;
+  top: auto;
+}
+.ui-pnotify.stack-custom {
+  /* Custom values have to be in pixels, because the code parses them. */
+
+  top: 200px;
+  left: 200px;
+  right: auto;
+}
+.ui-pnotify.stack-custom2 {
+  top: auto;
+  left: auto;
+  bottom: 200px;
+  right: 200px;
+}
+/* This one is totally different. It stacks at the top and looks
+			like a Microsoft-esque browser notice bar. */
+.ui-pnotify.stack-bar-top {
+  right: 0;
+  top: 0;
+}
+.ui-pnotify.stack-bar-bottom {
+  margin-left: 15%;
+  right: 0;
+  bottom: 0;
+  top: auto;
+  left: auto;
+}
+/*
+Document   : jquery.pnotify.default.icons.css
+Created on : Nov 24, 2009, 2:58:21 PM
+Author     : Hunter Perrin
+Version    : 1.2.0
+Link       : http://pinesframework.org/pnotify/
+Description:
+	Pines Icon styling for Pines Notify.
+*/
+.ui-pnotify .picon {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 17px;
+  height: 17px;
+}
+.ui-pnotify-icon .alarm {
+  background-image: url("alerts/alert-icon-alarm.png");
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  .ui-pnotify-icon .alarm {
+    background-image: url("alerts/alert-icon-alarm@2x.png");
+    background-size: 40px 40px;
+  }
+}
+.ui-pnotify-icon .alert {
+  background-image: url("alerts/alert-icon-alert.png");
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  .ui-pnotify-icon .alert {
+    background-image: url("alerts/alert-icon-alert@2x.png");
+    background-size: 40px 40px;
+  }
+}
+.ui-pnotify-icon .clock {
+  background-image: url("alerts/alert-icon-clock.png");
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  .ui-pnotify-icon .clock {
+    background-image: url("alerts/alert-icon-clock@2x.png");
+    background-size: 40px 40px;
+  }
+}
+.ui-pnotify-icon .logo {
+  background-image: url("alerts/alert-icon-logo.png");
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  .ui-pnotify-icon .logo {
+    background-image: url("alerts/alert-icon-logo@2x.png");
+    background-size: 40px 40px;
+  }
+}
+.ui-pnotify-icon .people {
+  background-image: url("alerts/alert-icon-people.png");
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  .ui-pnotify-icon .people {
+    background-image: url("alerts/alert-icon-people@2x.png");
+    background-size: 40px 40px;
+  }
+}
+.ui-pnotify-icon .price {
+  background-image: url("alerts/alert-icon-price.png");
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  .ui-pnotify-icon .price {
+    background-image: url("alerts/alert-icon-price@2x.png");
+    background-size: 40px 40px;
+  }
+}
+.icon-defaults {
+  display: block;
+  height: 40px;
+  width: 40px;
+}

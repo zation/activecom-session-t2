@@ -1,0 +1,146 @@
+#content .layout_2_1_left {
+  padding: 30px 0 0;
+}
+.powerbar-table table tbody tr td {
+  line-height: 40px;
+}
+.powerbar-widget {
+  width: 300px;
+  height: 383px;
+  float: right;
+  border: 0;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+.med_rec_bottom {
+  width: 300px;
+  float: left;
+}
+.endurance-pricing.section {
+  margin-bottom: 20px;
+}
+.endurance-pricing.powerbar-table table {
+  width: 97%;
+}
+.global-footer {
+  z-index: 1;
+}
+.powerbar-logo {
+  float: left;
+  padding: 7px 12px 0 0;
+}
+.eukanuba-logo {
+  float: left;
+  padding: 17px 12px 0 0;
+}
+.wrap {
+  position: relative;
+  overflow: hidden;
+}
+.inner {
+  overflow: auto;
+  height: 321px;
+  width: 621px;
+}
+.inner-euk {
+  width: 621px;
+}
+table.sortable thead {
+  background-color: #333;
+  color: #666;
+  font-weight: 700;
+  cursor: default;
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+}
+table.sortable thead,
+tr {
+  height: 32px;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 0;
+}
+#eukanuba section,
+article {
+  margin-bottom: 40px;
+}
+.tableHead {
+  width: 620px;
+  display: block;
+}
+.tableHead tr {
+  border: none;
+}
+.th-eventName {
+  width: 246px;
+  padding-left: 47px;
+}
+.th-city {
+  width: 80px;
+}
+.tableBody {
+  height: 500px;
+  display: block;
+  width: 100%;
+}
+caption,
+th,
+td {
+  font-weight: 400;
+  text-align: left;
+}
+tr,
+td,
+th {
+  vertical-align: top;
+  font-size: 12px;
+  margin: 0;
+  padding: 5px 15px;
+}
+tr {
+  border-bottom: 1px solid #EEE;
+}
+tr.alternate {
+  border-bottom: 1px solid #82573f;
+  background-color: rgba(237, 233, 206, 0.1);
+}
+th {
+  font-weight: 400;
+  text-align: left;
+  color: #fff;
+}
+.th-date,
+.th-sport {
+  width: 60px;
+}
+.a3badgeYes {
+  background-image: url(http://beta.active.com/Assets/Images/featured_events/a3logo_sortable.jpg);
+}
+.a3badgeYes,
+.a3badgeNo {
+  width: 32px;
+  height: 16px;
+  display: inline-table;
+  background-repeat: no-repeat;
+  color: transparent;
+  font-size: 0;
+  float: left;
+  margin-top: 10px;
+}
+.powerbar-123list {
+  margin: 15px 0;
+  padding: 0 0 0 23px;
+}
+#breadcrumbs img {
+  margin-left: -12px;
+}
+.powerbar-intro {
+  line-height: 1.39em;
+}
+.promo-desc {
+  margin-bottom: 40px;
+}

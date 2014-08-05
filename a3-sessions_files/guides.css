@@ -1,0 +1,39 @@
+.guide .title-with-editor {
+  line-height: 15px;
+  position: relative;
+  width: 218px;
+  margin-bottom: 20px;
+}
+.guide .title-with-editor span h3 {
+  line-height: 15px;
+}
+.guide .guides-desc {
+  margin-top: 0px !important;
+  z-index: 1 !important;
+}
+.guide .sponsored-link {
+  margin-top: -30px;
+}
+.guide .chl-everywhere-link a {
+  color: #2191cb !important;
+}
+.guide .widget {
+  margin-bottom: 40px;
+}
+.sponsored-ad-title {
+  position: relative;
+  height: 80px;
+  width: 120px;
+  margin: 0px;
+  text-align: center;
+}
+.sponsored-ad-title p {
+  padding-top: 5px;
+  margin: 0 0 3px;
+}
+.sponsored-ad-title a {
+  text-decoration: none;
+}
+.guide-title h1 {
+  text-transform: uppercase;
+}

@@ -1,0 +1,27 @@
+.checkbox {
+  width: auto;
+  position: relative;
+  height: 24px;
+  line-height: 24px;
+  padding-left: 24px;
+}
+.jquery-checkbox-wrapper {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 3px;
+  right: 17px;
+}
+.jquery-checkbox-wrapper a.jquery-checkbox {
+  background: transparent url('/images/ui-checkbox.png') repeat scroll 0px 0px;
+  display: block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  cursor: default;
+  outline: none;
+}
+.jquery-checkbox-wrapper a.jquery-checkbox-on {
+  background-position: 16px 0px;
+}

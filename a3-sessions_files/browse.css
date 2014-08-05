@@ -1,0 +1,46 @@
+.browse h1.title {
+  margin-bottom: 20px;
+}
+.browse .browse-org-page .browse-paging {
+  margin: 40px 0;
+}
+.browse .sectionheader {
+  padding-bottom: 3px;
+  clear: both;
+}
+.browse .sectioncontent.top-blue-border {
+  margin-bottom: 40px;
+}
+.browse .activity-count {
+  color: #999999;
+}
+.browse .org-link {
+  display: inline-block;
+}
+.browse .browse-paging {
+  clear: both;
+}
+.browse .browse-paging a {
+  padding: 2px 4px;
+}
+.browse .browse-paging a.h5 {
+  color: #2191cb;
+}
+.browse .browse-paging a.active {
+  color: #FFF;
+  background: #2191cb;
+}
+.browse .browse-paging a.active:hover {
+  text-decoration: none;
+}
+.browse .browse-title {
+  padding-bottom: 10px;
+}
+.browse .org-list {
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+.browse .disabled-letter {
+  color: #999999;
+  padding: 2px 4px;
+}

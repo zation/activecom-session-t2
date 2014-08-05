@@ -1,0 +1,8 @@
+.loader {
+  background: url(/assets/ajax-loader-on-ffffff.gif) no-repeat 0 0 transparent;
+  position: relative;
+  display: block;
+  height: 31px;
+  width: 31px;
+  left: 50%;
+}

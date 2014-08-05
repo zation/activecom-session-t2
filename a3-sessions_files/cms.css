@@ -1,0 +1,132 @@
+.cms_container {
+  position: relative;
+}
+.cms_button {
+  position: absolute;
+  z-index: 10;
+  display: none;
+  left: -30px;
+}
+.cms_button .edit_button {
+  background: url('/assets/sprite-icons-f5ba46.png') no-repeat 0 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.cms_button .save_button {
+  background: url('/assets/sprite-icons-f5ba46.png') no-repeat -33px -448px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.cms_button .delete_button {
+  background: url('/assets/sprite-icons-f5ba46.png') no-repeat -258px 0px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.cp-t1 {
+  margin-bottom: 8px;
+}
+.cp-t2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.cp-bio-l1 {
+  margin-left: 0px;
+}
+.cp-bio-l1 ul {
+  margin-left: 0px;
+}
+.cp-bio-l1 li {
+  margin-right: 15px;
+}
+.cp-bio-l1 li:first-child {
+  margin-left: 0px;
+}
+.cp-bio-l1 li a:hover {
+  text-decoration: none;
+}
+.cp-bio-l1 li a:hover p {
+  text-decoration: underline;
+}
+.cp-bio-l1 li .icon-sprite-ch {
+  background: url('sprite-social-icons.png') 0px 0px no-repeat;
+  display: inline-block;
+  float: left;
+  height: 24px;
+  width: 16px;
+}
+.cp-bio-l1 li .icon-sprite-tw {
+  background: url('sprite-social-icons.png') -16px 0px no-repeat;
+  display: inline-block;
+  float: left;
+  height: 24px;
+  width: 18px;
+}
+.cp-bio-l1 li .icon-sprite-fb {
+  background: url('sprite-social-icons.png') -33px 0px no-repeat;
+  display: inline-block;
+  float: left;
+  height: 24px;
+  width: 9px;
+}
+.cp-bio-l1 li .icon-sprite-gp {
+  background: url('sprite-social-icons.png') -42px 0px no-repeat;
+  display: inline-block;
+  float: left;
+  height: 24px;
+  width: 17px;
+}
+.cp-bio-l1 li p {
+  display: inline-block;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.cp-bio-l1 li p:first-child {
+  padding-left: 0px;
+}
+.cp-bio-divider {
+  border-top: 1px solid #DDD;
+  margin: 28px 0 40px;
+}
+.cp-bio-divider-nb {
+  border-top: 1px solid #DDD;
+  margin: 21px 0 0px;
+}
+.cp-bio-desc p {
+  font-size: 14px;
+  line-height: 24px;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 24px;
+}
+.cp-bio-img {
+  float: left;
+  margin: 0 40px 30px 0;
+}
+.cp-bio-img img {
+  height: 200px;
+  width: 200px;
+}
+.cp-bio-activities-listing.section article {
+  border-bottom: 0px;
+}
+.cp-bio-activities-listing.section article:hover {
+  background: transparent;
+}
+.cp-bio-activities-listing.section article .article-photo {
+  padding-left: 0px;
+}
+.cp-bio-activities-listing.section article .article-content {
+  padding-left: 0px;
+}
+.cp-bio-activities-listing.section article .article-content .description {
+  max-width: inherit;
+}
+/*CMS icon style fix*/
+.marketing-page-icon .cms_button {
+  left: 0;
+}

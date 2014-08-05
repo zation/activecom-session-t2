@@ -1,0 +1,135 @@
+.evergreen .sectioncontent .participation_chart {
+  background: url('/images/a3-v59-evergreen-ed-1c.png');
+  display: block;
+  margin-top: 15px;
+  width: 218px;
+  height: 198px;
+  position: relative;
+}
+.evergreen .sectioncontent .participation_chart h1 {
+  color: #eda020;
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 0px;
+}
+.evergreen .sectioncontent .participation_chart h5 {
+  text-transform: uppercase;
+}
+.evergreen .sectioncontent .participation_chart h5.header {
+  line-height: 40px;
+  text-align: center;
+}
+.evergreen .sectioncontent .participation_chart span[class^="item"] {
+  text-align: center;
+  width: 109px;
+  height: 59px;
+  padding-top: 14px;
+}
+.evergreen .spacer {
+  height: 20px;
+  display: block;
+  clear: block;
+}
+.evergreen .spacer:before {
+  content: "";
+}
+.evergreen table thead tr th {
+  border-bottom: 1px solid #ddd;
+  line-height: 40px;
+  padding: 0px;
+  padding-left: 8px;
+}
+.evergreen table thead tr th p {
+  line-height: 40px;
+  margin-bottom: 0px;
+}
+.evergreen table thead .custom-section-header {
+  background-color: #F9F9F9;
+  border-bottom: 1px solid #ddd;
+  height: 45px;
+  line-height: 45px;
+  padding-bottom: 12px;
+}
+.evergreen table thead .custom-section-header.all-time {
+  line-height: 30px;
+  height: 30px;
+}
+.evergreen table thead .custom-section-header.all-time th {
+  padding-bottom: 0px;
+}
+.evergreen table thead .custom-section-header th {
+  padding: 0 0 5px 8px;
+}
+.evergreen table thead .custom-section-header th.eg-csh-mod {
+  padding: 0 8px 16px;
+}
+.evergreen table thead .custom-section-header th h1 {
+  color: #eda020;
+  float: left;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 37px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+}
+.evergreen table thead .custom-section-header th .upper {
+  text-transform: uppercase;
+}
+.evergreen table thead .custom-section-header th p {
+  line-height: 40px;
+  margin-bottom: 0px;
+}
+.evergreen table thead .custom-section-header th p.custom {
+  line-height: 0px;
+}
+.evergreen table tbody tr td {
+  border-bottom: 1px solid #ddd;
+  line-height: 24px;
+  padding: 0px;
+  padding-left: 8px;
+}
+.evergreen table tbody tr td p {
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+.evergreen .all-time-footer {
+  background-color: #F9F9F9;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 8px 10px;
+}
+.evergreen .all-time-footer p {
+  margin-bottom: 0px;
+}
+.evergreen .all-time-footer p a {
+  border-right: 2px solid #ddd;
+  padding-right: 6px;
+  margin-right: 6px;
+}
+.evergreen .all-time-footer p a:last-child {
+  border-right: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+.section.most-popular .sectioncontent.evergreen .features li {
+  padding: 4px 10px 3px;
+}
+.section.most-popular .sectioncontent.evergreen .features li h5 {
+  color: #555;
+  line-height: 13px;
+}
+.section.most-popular .sectioncontent.evergreen .features li .featured h5 {
+  color: #2191cb;
+  padding: 5px 0 0;
+  line-height: 16px;
+}
+.section.most-popular .sectioncontent.evergreen .features li .featured h5:hover {
+  color: #155f85;
+  text-decoration: underline;
+}
+.section.most-popular .sectioncontent.evergreen.other-links {
+  padding-left: 10px;
+}
+.bg-bd-settings {
+  background-color: #F9F9F9;
+  border-bottom: 1px solid #ddd;
+}

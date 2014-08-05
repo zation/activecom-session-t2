@@ -1,0 +1,404 @@
+/*
+* Fancybox styles
+*/
+.active-fancybox-widget .fancybox-skin {
+  background: #FFF;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+.active-fancybox-widget .fancybox-close {
+  visibility: hidden;
+}
+.active-fancybox-widget .what-your-active-banner {
+  background: url('/images/sprite-ui-elements.png') 0 -415px transparent no-repeat;
+  clear: none;
+  display: block;
+  height: 58px;
+  top: 28px;
+  margin-left: 300px;
+  position: relative;
+  width: 563px;
+  float: none;
+  z-index: 8040;
+}
+.active-fancybox-widget .auth_widget header {
+  border-bottom: 1px solid #DDD;
+  background: #FFF;
+  text-align: center;
+  padding: 20px 0 16px;
+  width: 100%;
+}
+.active-fancybox-widget .auth_widget header h2 {
+  letter-spacing: 0.04em;
+  line-height: 26px;
+}
+.active-fancybox-widget .auth_widget header h2 .close-btn {
+  position: absolute;
+  display: inline;
+  color: #DDD;
+  font-size: 42px;
+  right: 7px;
+  margin: -11px 1px 0 0;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+.active-fancybox-widget .auth_widget header h2 .close-btn:hover,
+.active-fancybox-widget .auth_widget header h2 .close-btn:active {
+  color: #3a7ea2;
+  cursor: pointer;
+}
+.active-fancybox-widget.apw-signup-widget {
+  width: 600px !important;
+}
+.active-fancybox-widget.apw-signup-widget .fancybox-inner {
+  width: 600px !important;
+}
+.active-fancybox-widget.capture-interest,
+.active-fancybox-widget.adv-upsell-wrap {
+  width: 940px !important;
+}
+.active-fancybox-widget.capture-interest .fancybox-inner,
+.active-fancybox-widget.adv-upsell-wrap .fancybox-inner {
+  width: 940px !important;
+}
+.active-fancybox-widget .auth-widget {
+  width: 560px;
+  margin: 0 0 0 20px;
+}
+.active-fancybox-widget .auth-widget header {
+  border-bottom: 1px solid #DDD;
+  background: #FFF;
+  text-align: center;
+  padding: 20px 0 16px;
+  width: 100%;
+  margin-right: 20px;
+}
+.active-fancybox-widget .auth-widget header h2 {
+  letter-spacing: 0.04em;
+  line-height: 26px;
+}
+.active-fancybox-widget .auth-widget header h2 .close-btn {
+  position: absolute;
+  display: inline;
+  color: #DDD;
+  font-size: 42px;
+  right: 7px;
+  margin: -11px 1px 0 0;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+.active-fancybox-widget .auth-widget header h2 .close-btn:hover,
+.active-fancybox-widget .auth-widget header h2 .close-btn:active {
+  color: #3a7ea2;
+  cursor: pointer;
+}
+.active-fancybox-widget .auth-widget header p {
+  margin: 0px;
+  line-height: 21px;
+}
+.active-fancybox-widget .onboarding-container {
+  margin-right: 20px;
+  height: 100%;
+}
+.active-fancybox-widget .onboarding-container header {
+  border-bottom: 1px solid #DDD;
+  background: #FFF;
+  text-align: center;
+  padding: 20px 0 16px;
+  width: 100%;
+  margin-right: 20px;
+  padding: 35px 0 10px;
+}
+.active-fancybox-widget .onboarding-container header h2 {
+  letter-spacing: 0.04em;
+  line-height: 26px;
+}
+.active-fancybox-widget .onboarding-container header h2 .close-btn {
+  position: absolute;
+  display: inline;
+  color: #DDD;
+  font-size: 42px;
+  right: 7px;
+  margin: -11px 1px 0 0;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+.active-fancybox-widget .onboarding-container header h2 .close-btn:hover,
+.active-fancybox-widget .onboarding-container header h2 .close-btn:active {
+  color: #3a7ea2;
+  cursor: pointer;
+}
+.active-fancybox-widget .onboarding-container header p {
+  margin: 0px;
+  line-height: 21px;
+}
+.active-fancybox-widget .onboarding-container.capture-interest {
+  width: 900px !important;
+  height: auto !important;
+  min-height: 100%;
+}
+.active-fancybox-widget .onboarding-container.auth-widget header .close-btn {
+  margin-top: -11px 1px 0 0;
+}
+.active-fancybox-widget .onboarding-container .content.capture-interest {
+  margin: 30px 55px 30px 65px;
+  height: auto !important;
+  min-height: 100%;
+}
+.active-fancybox-widget .onboarding-container .content.apw-signup-widget {
+  margin: 0px;
+  margin-left: 0px;
+}
+.active-fancybox-widget .onboarding-container .content.apw-signup-widget #ap-login-wrapper {
+  padding: 0px;
+  min-width: 0;
+}
+.active-fancybox-widget .onboarding-container .content > .row {
+  margin-bottom: 20px;
+}
+.active-fancybox-widget .onboarding-container .content > .row:last-child {
+  margin-bottom: 0px;
+}
+.active-fancybox-widget .onboarding-container .content .span2 {
+  border: 2px solid #FFF;
+  position: relative;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+.active-fancybox-widget .onboarding-container .content .span2:hover,
+.active-fancybox-widget .onboarding-container .content .span2.on,
+.active-fancybox-widget .onboarding-container .content .span2.on:hover,
+.active-fancybox-widget .onboarding-container .content .span2:active,
+.active-fancybox-widget .onboarding-container .content .span2.on:active {
+  border: 2px solid #f5ba48;
+  cursor: pointer;
+}
+.active-fancybox-widget .onboarding-container .content .span2:hover img,
+.active-fancybox-widget .onboarding-container .content .span2.on img,
+.active-fancybox-widget .onboarding-container .content .span2.on:hover img,
+.active-fancybox-widget .onboarding-container .content .span2:active img,
+.active-fancybox-widget .onboarding-container .content .span2.on:active img {
+  opacity: 1;
+}
+.active-fancybox-widget .onboarding-container .content .image-block {
+  background: #FFF;
+}
+.active-fancybox-widget .onboarding-container .content .image-block img {
+  width: 140px;
+  height: 140px;
+  opacity: 0.6;
+}
+.active-fancybox-widget .onboarding-container .content .title {
+  background-color: rgba(25, 25, 25, 0.8);
+  position: absolute;
+  margin-top: -36px;
+  width: 140px;
+}
+.active-fancybox-widget .onboarding-container .content .title h4 {
+  background-color: transparent;
+}
+.active-fancybox-widget .onboarding-container footer {
+  text-align: center;
+}
+.active-fancybox-widget .advantage-upsell-container {
+  margin: 0 20px;
+  height: 100%;
+  width: 900px;
+}
+.active-fancybox-widget .advantage-upsell-container header {
+  border-bottom: 1px solid #DDD;
+  background: #FFF;
+  text-align: center;
+  padding: 20px 0 16px;
+  width: 100%;
+  margin-right: 20px;
+  padding: 15px 0 10px;
+}
+.active-fancybox-widget .advantage-upsell-container header h2 {
+  letter-spacing: 0.04em;
+  line-height: 26px;
+}
+.active-fancybox-widget .advantage-upsell-container header h2 .close-btn {
+  position: absolute;
+  display: inline;
+  color: #DDD;
+  font-size: 42px;
+  right: 7px;
+  margin: -11px 1px 0 0;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+.active-fancybox-widget .advantage-upsell-container header h2 .close-btn:hover,
+.active-fancybox-widget .advantage-upsell-container header h2 .close-btn:active {
+  color: #3a7ea2;
+  cursor: pointer;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell {
+  width: 840px;
+  margin-left: 60px;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell .span2 {
+  margin-left: 0px;
+  border: 0px;
+  width: 180px;
+  text-align: center;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell .span2:hover {
+  border: 0px;
+  cursor: normal;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell .lga {
+  margin-bottom: 0px;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell .lg {
+  border-bottom: 1px solid #DDD;
+  width: 100%;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell .logo {
+  margin-left: -45px;
+  text-align: center;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell .logo .active-logo {
+  background: url('/images/sprite-logos.png') 0 -206px no-repeat transparent;
+  display: block;
+  height: 26px;
+  width: 150px;
+  margin: 55px 0 0 20px;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell .logo .advantage-vertical-logo {
+  background: url('/images/logo-active-advantage-vertical.png') 0 0 no-repeat transparent;
+  display: block;
+  height: 66px;
+  width: 141px;
+  margin: 16px 0 0 20px;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell .logo p {
+  margin: 9px 0 0;
+  color: #999;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell.content .row {
+  margin-bottom: 0px;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell.content h5 {
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 11px;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell.content ul {
+  margin-bottom: 6px;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell.content ul li {
+  line-height: 32px;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell.content .content-descriptions .span2 {
+  vertical-align: middle;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell.content .content-descriptions .span2.ico-a span[class^='icon-'] {
+  color: #999;
+  font-size: 28px;
+  position: relative;
+  top: 76px;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell.content .content-descriptions .span2.ico-b span[class^='icon-'] {
+  color: #999;
+  font-size: 28px;
+  position: relative;
+  top: 28px;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell.content .content-descriptions .span2.ico-c span[class^='icon-'] {
+  color: #999;
+  font-size: 28px;
+  position: relative;
+  top: 28px;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell.content .content-descriptions .span2.ico-d span[class^='icon-'] {
+  color: #999;
+  font-size: 28px;
+  position: relative;
+  top: 28px;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell.content .content-descriptions .ava {
+  padding: 30px 0;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell.content .content-descriptions .ava h5 {
+  font-size: 18px;
+  margin-top: 0px;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell.content .content-descriptions .ava h5 sup {
+  font-size: 10px;
+  top: -6px;
+}
+.active-fancybox-widget .advantage-upsell-container .adv-upsell.content .content-descriptions .try-advantage-button {
+  margin-top: 25px;
+}
+.active-fancybox-widget .advantage-upsell-container footer {
+  background: #ededed;
+  clear: both;
+  border-top: 1px solid #DDD;
+  display: block;
+  text-align: center;
+  width: 940px;
+}
+.active-fancybox-widget .advantage-upsell-container footer p {
+  margin: 0px;
+  line-height: 44px;
+}
+.fb_header_common {
+  border-bottom: 1px solid #DDD;
+  background: #FFF;
+  text-align: center;
+  padding: 20px 0 16px;
+  width: 100%;
+}
+.fb_header_common h2 {
+  letter-spacing: 0.04em;
+  line-height: 26px;
+}
+.fb_header_common h2 .close-btn {
+  position: absolute;
+  display: inline;
+  color: #DDD;
+  font-size: 42px;
+  right: 7px;
+  margin: -11px 1px 0 0;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+.fb_header_common h2 .close-btn:hover,
+.fb_header_common h2 .close-btn:active {
+  color: #3a7ea2;
+  cursor: pointer;
+}
+#ap-login-wrapper #ap-login-content .ap-login-form {
+  margin: 30px 25px !important;
+}
+.fb_footer_common {
+  background: #ededed;
+  clear: both;
+  border-top: 1px solid #DDD;
+  display: block;
+  text-align: center;
+}
+.fb_footer_common p {
+  margin: 0px;
+  line-height: 44px;
+}

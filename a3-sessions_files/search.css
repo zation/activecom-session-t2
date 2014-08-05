@@ -1,0 +1,6 @@
+.search-suggestion-text {
+  display: inline;
+}
+.search-results-returned {
+  text-transform: none !important;
+}

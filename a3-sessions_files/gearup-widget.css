@@ -1,0 +1,49 @@
+#gearup_widget .gearup-widget-logo {
+  margin-top: 0;
+  font-size: 0;
+  color: transparent;
+  background: url('/images/sprite-logos.png') no-repeat 0 -519px scroll transparent;
+  height: 19px;
+  width: 185px;
+  float: right;
+}
+#gearup_widget .gearup-footer {
+  border-top: 1px solid #ddd;
+  padding: 15px 0;
+  display: inline;
+}
+#gearup_widget .gearup-footer ul {
+  display: inline;
+}
+#gearup_widget .gearup-footer ul li {
+  border-bottom: none;
+  border-right: 1px solid #ddd;
+  padding-right: 10px;
+  margin-right: 10px;
+  display: inline;
+}
+#gearup_widget .gearup-footer ul li a {
+  border-color: #555;
+}
+#gearup_widget .gearup-footer ul li:last-child {
+  border-right: none;
+}
+#gearup_widget .gearup-footer p {
+  display: inline;
+  margin-right: 5px;
+}
+#gearup_widget .advantage-upsell-banner {
+  background: #fef8ec;
+}
+#gearup_widget .advantage-upsell-banner .member {
+  margin: 7px 0 6px 0;
+}
+#gearup_widget .advantage-upsell-banner .table {
+  margin-bottom: 7px;
+}
+#gearup_widget .active-advantage-icon-logo {
+  margin-left: 0;
+}
+#gearup_widget .gearup-iframe {
+  margin-bottom: 13px;
+}

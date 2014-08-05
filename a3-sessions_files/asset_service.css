@@ -1,0 +1,129 @@
+#main-content.asset_service {
+  padding-top: 40px;
+  margin-top: 0px;
+}
+.asset_service .page-title {
+  margin-top: -285px;
+}
+.asset-toolbar-wrapper .toolbar .nav-pills span[class^="icon-"] {
+  color: #2191cb;
+}
+.ed {
+  /* Recommend Events */
+
+}
+.ed .evergreen_previous {
+  padding: 10px;
+}
+.ed .evergreen table {
+  table-layout: fixed;
+}
+.ed .evergreen table td {
+  word-wrap: break-word;
+}
+.ed .endurance-pricing table tbody tr.advantage-row td.advantage-col,
+.ed .endurance-pricing table tbody tr.advantage-row td.advantage-col p {
+  background: #fef8ec;
+}
+.ed .active-advantage-icon-logo {
+  background-position: 0 -358px;
+  height: 28px;
+  width: 130px;
+  margin-bottom: 15px;
+}
+.ed .endurance-pricing.registration-open thead tr.dfp-advantage th {
+  height: 50px;
+}
+.ed #reg-open-section .aa-coupon-amount span[class^="icon-"] {
+  font-size: 28px;
+  color: #e8a21b;
+  line-height: 14px;
+  position: relative;
+  top: 8px;
+}
+.ed #reg-open-section .aa-coupon-amount {
+  font-weight: normal;
+}
+.ed #reg-open-section .aa-coupon-code {
+  font-weight: bold;
+}
+.ed #reg-open-section .active-advantage-icon {
+  background: url("/images/sprite-logos.png") no-repeat scroll 0 -337px transparent;
+  height: 19px;
+  width: 21px;
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  margin-right: 6px;
+}
+.ed #reg-open-section #reg-open-section-advantage-buttom .active-advantage-icon {
+  top: 4px;
+}
+.ed #recommend-events .third {
+  width: 29.3%;
+  margin-top: 20px;
+}
+.ed #recommend-events .thumbnail-alignment {
+  width: 140px;
+  height: 105px;
+  overflow: hidden;
+}
+.ed #recommend-events .thumbnail {
+  margin-bottom: 15px;
+}
+.ed #recommend-events .title {
+  line-height: 17px;
+  margin-bottom: 5px;
+}
+.ed #recommend-events .event_date a,
+.ed #recommend-events #recommend-events .event_location a {
+  color: #333;
+}
+.price-grid-advantage {
+  margin-bottom: 10px;
+}
+/* kids styles */
+.ak-session {
+  background-color: #f5f5f5;
+  border-top: 1px solid #f5f5f5;
+  margin-bottom: 20px;
+}
+.ak-session p {
+  font-size: 14px;
+}
+.ak-session .collapser-icon,
+.ak-session [class^="icon-"] {
+  font-size: 21px;
+  top: 3px;
+  position: relative;
+  padding-right: 5px;
+}
+.ak-session .distance {
+  float: right;
+  padding: 16px;
+  color: #88bc29;
+  font-size: 14px;
+}
+.ak-session .price-change {
+  color: #f5ba46;
+}
+.ak-session .schedule {
+  padding-left: 12px;
+}
+.ak-session .details {
+  margin-top: 30px;
+  background-color: #ffffff;
+}
+.ak-session .details .expand-button {
+  color: #2191cb;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  background-color: #e5e5e5;
+}
+.ak-session .details .expand-button a:hover {
+  color: #f5b53a;
+  text-decoration: none;
+}
+.ak-session.expanded {
+  background-color: #ffffff;
+}

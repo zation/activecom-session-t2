@@ -1,0 +1,95 @@
+.mozilla .mqa-display {
+  width: 100%;
+}
+.mozilla .mqa-zl0,
+.mozilla .mqa-zl0 div {
+  width: 100%;
+  height: 100%;
+}
+.mozilla .mqa-zl5,
+.mozilla .mqa-zl5 div {
+  width: 100%;
+  height: 100%;
+}
+.mozilla .mqa-zl10,
+.mozilla .mqa-zl10 div {
+  width: 100%;
+  height: 100%;
+}
+.mozilla .mqa-zl20,
+.mozilla .mqa-zl20 div {
+  width: 100%;
+  height: 100%;
+}
+.mozilla .mqa-zl50,
+.mozilla .mqa-zl50 div {
+  width: 100%;
+  height: 100%;
+}
+.mozilla .mqa-zl80,
+.mozilla .mqa-zl80 div {
+  width: 100%;
+  height: 100%;
+}
+.mozilla .mqa-zl1000,
+.mozilla .mqa-zl1000 div {
+  width: 100%;
+  height: 100%;
+}
+.mozilla .header-main .logo a {
+  background-size: inherit;
+}
+.mozilla .endurance-pricing table {
+  border-collapse: inherit;
+}
+.mozilla .endurance-pricing table thead .categories th {
+  border-bottom: 1px solid #DDD;
+}
+.mozilla .active-fancybox-widget #ap-login-wrapper .ap-passport-logo-container {
+  text-align: left;
+  width: 102%;
+}
+.mozilla .active-fancybox-widget #ap-login-wrapper .ap-passport-logo-container .ap-passport-logo {
+  width: 171px;
+}
+.mozilla .active-fancybox-widget #ap-login-wrapper .ap-passport-logo-container .ap-small-text {
+  position: relative;
+  top: -1px;
+}
+.mozilla #orginizerCarousel .carousel-inner {
+  overflow: visible;
+}
+.mozilla .aa-links .aa-eligible-logo {
+  background-position: 0 -356px;
+}
+.mozilla .advantage-link-inline {
+  background-position: -114px -356px;
+}
+.mozilla #main-content.organizers {
+  margin-top: 0px;
+  top: -236px;
+}
+.mozilla #main-content.organizers + footer.context-footer {
+  margin-top: -160px;
+}
+.mozilla #search-form .search-query {
+  height: 38px;
+}
+.mozilla #header-location .tt-dropdown-menu {
+  margin-top: 25px;
+}
+.mozilla #header-location .tt-dropdown-menu .caret {
+  left: 7px;
+  top: -16px;
+}
+.mozilla #header-location.min-search .tt-dropdown-menu {
+  margin-top: 5px;
+}
+.mozilla #header-location.min-search .tt-dropdown-menu .caret {
+  left: 13px;
+  top: -11px;
+}
+.mozilla .common-location-typeahead .tt-dropdown-menu {
+  margin-left: -33.5px;
+  margin-top: 5px;
+}

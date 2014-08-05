@@ -1,4 +1,6 @@
-test code
+Activecom testing code playgroud example
 
-tasks:
-  TODO: add thasks here.
+  *TODO:*
+    -  Fix font issues
+	-  Add javascript to expand/collapse session details
+

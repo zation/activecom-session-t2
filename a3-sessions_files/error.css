@@ -1,0 +1,28 @@
+.error404 h1 {
+  margin-bottom: 0;
+  line-height: 40.95px;
+}
+.error404 h5.note {
+  padding: 20px 0 50px;
+}
+.error404 .section-header {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
+.error404 .section-header h2 {
+  line-height: 26px;
+}
+.error404 .section-links ul {
+  margin: 0;
+  padding: 0;
+}
+.error404 .section-links ul.nav {
+  margin-left: 20px;
+}
+.error404 .section-links ul.nav a {
+  line-height: 24px;
+}
+.error_404 #main-content.organizers {
+  top: 0px;
+}

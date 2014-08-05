@@ -1,0 +1,66 @@
+.sectioncontent.author-info {
+  background: transparent;
+}
+.sectioncontent.author-info .author-bio {
+  width: 100px;
+}
+.sectioncontent.author-info .name {
+  clear: both;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+#article-details .toolbar {
+  verticle-align: middle;
+}
+#article-details .toolbar .byline > a:hover {
+  text-decoration: none;
+}
+#article-details .toolbar .byline img {
+  padding-left: 12px;
+  position: relative;
+  margin-top: -1px;
+  max-height: 18px;
+  height: 18px;
+}
+#article-details .article-sub-title {
+  margin: 10px 0 0 0;
+}
+#popular-events-near-you.widget {
+  margin-top: 0;
+}
+#popular-events-near-you.widget .content {
+  margin-top: 0;
+}
+.inline-ad #popular-events-near-you {
+  margin-bottom: 0px;
+}
+.inline-ad #popular-events-near-you .sectionheader {
+  padding-bottom: 3px;
+}
+.inline-ad #popular-events-near-you .sectionheader h2 {
+  letter-spacing: 0.001em;
+}
+.inline-ad #popular-events-near-you .sectioncontent ul {
+  padding-bottom: 0px !important;
+}
+.inline-ad #popular-events-near-you .sectioncontent ul li {
+  list-style: none;
+}
+.inline-ad #popular-events-near-you .sectioncontent ul li .chl-everywhere-link {
+  font-size: 12px;
+  line-height: 21px;
+}
+.inline-ad #popular-events-near-you .sectioncontent ul li #popular-change-location-input {
+  width: 185px;
+}
+.inline-ad #popular-events-near-you .sectioncontent.no-image li {
+  border-bottom: 1px solid #DDD;
+}
+.inline-ad #popular-events-near-you .sectioncontent.no-image li:last-child {
+  border-bottom: 0px;
+}
+.inline-ad #popular-events-near-you .sectioncontent.other-links {
+  font-size: 12px;
+}

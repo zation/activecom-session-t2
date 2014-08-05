@@ -1,0 +1,228 @@
+.endurance-pricing .camps > tr {
+  display: table;
+  margin-bottom: 50px;
+}
+.endurance-pricing .camps > tr table tbody {
+  border: 0px;
+}
+.endurance-pricing .camps > tr:hover > td,
+.endurance-pricing .camps > tr:hover > th {
+  background-color: #FFF;
+}
+.endurance-pricing .camps > tr:hover > td table tbody tr > td,
+.endurance-pricing .camps > tr:hover > th table tbody tr > td,
+.endurance-pricing .camps > tr:hover > td table tbody tr > th,
+.endurance-pricing .camps > tr:hover > th table tbody tr > th {
+  background-color: #FFF;
+}
+.endurance-pricing .camps > tr:hover > td table tbody .section-header,
+.endurance-pricing .camps > tr:hover > th table tbody .section-header {
+  background-color: #F5F5F5;
+}
+.endurance-pricing .camps > tr.camps-no-price {
+  border: 0px transparent;
+}
+.endurance-pricing .camps > tr.camps-no-price .section-header {
+  border-top: 0px;
+}
+.endurance-pricing .camps > tr.camps-no-price .section-header td {
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #DDD;
+}
+.endurance-pricing .camps > tr.camps-no-price .section-header td h5 {
+  font-size: 18px;
+  padding-left: 10px;
+  line-height: 50px;
+}
+.endurance-pricing .camps > tr.camps-no-price .categories > th {
+  border-bottom: 1px solid #DDD;
+}
+.endurance-pricing .camps > tr.camps-no-price .categories > th.today-col,
+.endurance-pricing .camps > tr.camps-no-price .categories > th.later-col {
+  width: 61px;
+}
+.endurance-pricing .camps > tr.camps-no-price .section-child td {
+  padding: 6px 0 10px;
+}
+.endurance-pricing .camps > tr.camps-no-price .section-child:hover td {
+  background-color: #F5F5F5;
+}
+.endurance-pricing .camps > tr.camps-no-price .section-child:last-child {
+  border-bottom: 0px;
+}
+.endurance-pricing .camps > tr.camps-no-price .section-child:last-child td {
+  border-bottom: 0px;
+}
+.endurance-pricing .camps > tr.camps-no-price .section-child .session-info h5 {
+  padding: 14px 0 7px 10px;
+  text-transform: uppercase;
+  line-height: 0px;
+}
+.endurance-pricing .camps > tr.camps-no-price .section-child .session-info p {
+  margin: 0px;
+  padding: 0 0 0 10px;
+  line-height: 21px;
+}
+.endurance-pricing .camps > tr.camps-no-price .section-child .session-info p .pad-left {
+  padding-left: 10px;
+}
+.endurance-pricing .camps > tr.camps-today {
+  border: 0px transparent;
+}
+.endurance-pricing .camps > tr.camps-today .section-header {
+  border-top: 0px;
+}
+.endurance-pricing .camps > tr.camps-today .section-header td {
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #DDD;
+}
+.endurance-pricing .camps > tr.camps-today .section-header td h5 {
+  font-size: 18px;
+  padding-left: 10px;
+  line-height: 50px;
+}
+.endurance-pricing .camps > tr.camps-today .categories > th {
+  border-bottom: 1px solid #DDD;
+}
+.endurance-pricing .camps > tr.camps-today .categories > th.today-col,
+.endurance-pricing .camps > tr.camps-today .categories > th.later-col {
+  width: 61px;
+}
+.endurance-pricing .camps > tr.camps-today .section-child td {
+  padding: 6px 0 10px;
+}
+.endurance-pricing .camps > tr.camps-today .section-child:hover td {
+  background-color: #F5F5F5;
+}
+.endurance-pricing .camps > tr.camps-today .section-child:last-child {
+  border-bottom: 0px;
+}
+.endurance-pricing .camps > tr.camps-today .section-child:last-child td {
+  border-bottom: 0px;
+}
+.endurance-pricing .camps > tr.camps-today .section-child .session-info h5 {
+  padding: 14px 0 7px 10px;
+  text-transform: uppercase;
+  line-height: 0px;
+}
+.endurance-pricing .camps > tr.camps-today .section-child .session-info p {
+  margin: 0px;
+  padding: 0 0 0 10px;
+  line-height: 21px;
+}
+.endurance-pricing .camps > tr.camps-today .section-child .session-info p .pad-left {
+  padding-left: 10px;
+}
+.endurance-pricing .camps > tr.camps-today .section-child .today-col p {
+  padding-left: 10px;
+  width: 61px !important;
+  float: right;
+}
+.endurance-pricing .camps > tr.camps-today-later {
+  border: 0px transparent;
+}
+.endurance-pricing .camps > tr.camps-today-later .section-header {
+  border-top: 0px;
+}
+.endurance-pricing .camps > tr.camps-today-later .section-header td {
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #DDD;
+}
+.endurance-pricing .camps > tr.camps-today-later .section-header td h5 {
+  font-size: 18px;
+  padding-left: 10px;
+  line-height: 50px;
+}
+.endurance-pricing .camps > tr.camps-today-later .categories > th {
+  border-bottom: 1px solid #DDD;
+}
+.endurance-pricing .camps > tr.camps-today-later .categories > th.today-col,
+.endurance-pricing .camps > tr.camps-today-later .categories > th.later-col {
+  width: 61px;
+}
+.endurance-pricing .camps > tr.camps-today-later .section-child td {
+  padding: 6px 0 10px;
+}
+.endurance-pricing .camps > tr.camps-today-later .section-child:hover td {
+  background-color: #F5F5F5;
+}
+.endurance-pricing .camps > tr.camps-today-later .section-child:last-child {
+  border-bottom: 0px;
+}
+.endurance-pricing .camps > tr.camps-today-later .section-child:last-child td {
+  border-bottom: 0px;
+}
+.endurance-pricing .camps > tr.camps-today-later .section-child .session-info h5 {
+  padding: 14px 0 7px 10px;
+  text-transform: uppercase;
+  line-height: 0px;
+}
+.endurance-pricing .camps > tr.camps-today-later .section-child .session-info p {
+  margin: 0px;
+  padding: 0 0 0 10px;
+  line-height: 21px;
+}
+.endurance-pricing .camps > tr.camps-today-later .section-child .session-info p .pad-left {
+  padding-left: 10px;
+}
+.endurance-pricing .camps > tr.camps-today-later .section-child .later-col p,
+.endurance-pricing .camps > tr.camps-today-later .section-child .today-col p {
+  padding-left: 10px;
+  width: 61px !important;
+  float: right;
+}
+.common-section-block {
+  border: 0px transparent;
+}
+.common-section-header {
+  border-top: 0px;
+}
+.common-section-header td {
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #DDD;
+}
+.common-section-header td h5 {
+  font-size: 18px;
+  padding-left: 10px;
+  line-height: 50px;
+}
+.common-categories > th {
+  border-bottom: 1px solid #DDD;
+}
+.common-categories > th.today-col,
+.common-categories > th.later-col {
+  width: 61px;
+}
+.common-section-child td {
+  padding: 6px 0 10px;
+}
+.common-section-child:hover td {
+  background-color: #F5F5F5;
+}
+.common-section-child:last-child {
+  border-bottom: 0px;
+}
+.common-section-child:last-child td {
+  border-bottom: 0px;
+}
+.common-price-column p {
+  padding-left: 10px;
+  width: 61px !important;
+  float: right;
+}
+.common-session-column h5 {
+  padding: 14px 0 7px 10px;
+  text-transform: uppercase;
+  line-height: 0px;
+}
+.common-session-column p {
+  margin: 0px;
+  padding: 0 0 0 10px;
+  line-height: 21px;
+}
+.common-session-column p .pad-left {
+  padding-left: 10px;
+}
+.cell-border-bottom {
+  border-bottom: 1px solid #DDD;
+}

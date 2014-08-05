@@ -1,0 +1,28 @@
+.radio {
+	width: auto;
+	position: relative;
+	height: 24px;
+	line-height: 24px;
+	padding-left:24px;
+}
+.jquery-radiobutton-wrapper {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 3px;
+	left:0px;
+	z-index: 50;
+}
+
+.jquery-radiobutton-wrapper a.jquery-radiobutton {
+	background: transparent url('/images/ui-radio-button.png') repeat scroll 0px 0px;
+	display: block;
+	width: 16px;
+	height: 16px;
+	cursor: default;
+	outline: none;
+}
+
+.jquery-radiobutton-wrapper a.jquery-radiobutton-on {
+	background-position: 16px 0px;
+}

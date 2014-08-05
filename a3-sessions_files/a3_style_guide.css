@@ -1,0 +1,467 @@
+.style-guide .stg-main {
+  background: #222;
+  padding: 10px;
+}
+.style-guide .tab-content {
+  overflow: hidden;
+}
+.style-guide .tab-content .section-container {
+  clear: both;
+  display: block;
+  margin-bottom: 30px;
+}
+.style-guide .tab-content .section-container ul li {
+  border-bottom: 0px;
+}
+.style-guide .tab-content .section-container header h4 {
+  display: block;
+}
+.style-guide .tab-content .section-container .section-content .legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  font-size: 18px;
+  line-height: 36px;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  margin: 20px 0;
+}
+.style-guide .tab-content .section-container .section-content .legend h5 {
+  text-transform: uppercase;
+  line-height: 18px;
+  display: inline;
+}
+.style-guide .tab-content .section-container .section-content .legend h5.legend-marLeft {
+  margin-left: 150px;
+}
+.style-guide .tab-content .section-container .section-content .font-display-block {
+  padding: 30px 20px;
+}
+.style-guide .tab-content .section-container .section-content .font-display-block h1,
+.style-guide .tab-content .section-container .section-content .font-display-block h2,
+.style-guide .tab-content .section-container .section-content .font-display-block h3,
+.style-guide .tab-content .section-container .section-content .font-display-block h4,
+.style-guide .tab-content .section-container .section-content .font-display-block h5,
+.style-guide .tab-content .section-container .section-content .font-display-block h6 {
+  margin: 0px;
+}
+.style-guide .tab-content .section-container .section-content .font-display-block h1.reverse-text,
+.style-guide .tab-content .section-container .section-content .font-display-block h2.reverse-text,
+.style-guide .tab-content .section-container .section-content .font-display-block h3.reverse-text,
+.style-guide .tab-content .section-container .section-content .font-display-block h4.reverse-text,
+.style-guide .tab-content .section-container .section-content .font-display-block h5.reverse-text,
+.style-guide .tab-content .section-container .section-content .font-display-block h6.reverse-text {
+  color: #FFF;
+}
+.style-guide .tab-content .section-container .section-content .font-display-block h2 {
+  padding: 0px;
+}
+.style-guide .tab-content .section-container .section-content .reverse-text-box {
+  background: #222;
+  display: block;
+  float: left;
+  width: 420px;
+}
+.style-guide .tab-content .section-container .section-content .reverse-text-box h3.reverse-text,
+.style-guide .tab-content .section-container .section-content .reverse-text-box h4.reverse-text {
+  background: #0A0A0A;
+}
+.style-guide .tab-content .section-container .section-content .font-display-row {
+  clear: both;
+  display: block;
+  float: left;
+  margin-bottom: 15px;
+}
+.style-guide .tab-content .section-container .section-content .box1 {
+  line-height: 27px;
+  font-size: 14px;
+}
+.style-guide .tab-content .section-container .section-content .box1 span {
+  font-size: 24px;
+  position: relative;
+  top: 3px;
+}
+.style-guide .tab-content .section-container .section-content .button-display-block {
+  float: left;
+  display: block;
+  width: 185px;
+  word-wrap: normal;
+}
+.style-guide .tab-content .section-container .section-content .button-display-block a {
+  margin: 0 0 10px;
+}
+.style-guide .tab-content .section-container .section-content .button-display-block.description {
+  margin-left: 75px;
+}
+.style-guide .tab-content .section-container .section-content .link-display-block p {
+  line-height: 24px;
+}
+.style-guide .tab-content .section-container .section-content .link-display-block .reverse-text-box {
+  width: 110px;
+  padding: 14px 10px 6px;
+}
+.style-guide .tab-content .section-container .section-content .link-display-block .reverse-text-box p a {
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+  color: #999;
+}
+.style-guide .tab-content .section-container .section-content .link-display-block .reverse-text-box p a:visited {
+  color: #999;
+}
+.style-guide .tab-content .section-container .section-content .link-display-block .reverse-text-box p a:hover {
+  color: #f5ba46;
+}
+.style-guide .tab-content .section-container .section-content .link-display-block .reverse-text-box p a:active {
+  color: #f8cc76;
+}
+.style-guide .tab-content .section-container .section-content .link-display-block .reverse-text-box p a.reverse-text {
+  color: #f5ba46;
+}
+.style-guide .tab-content .section-container .section-content .link-display-block .reverse-text-box p a.reverse-text:visited {
+  color: #f5ba46;
+}
+.style-guide .tab-content .section-container .section-content .link-display-block .reverse-text-box p a.reverse-text:hover {
+  color: #f5ba46;
+}
+.style-guide .tab-content .section-container .section-content .link-display-block .reverse-text-box p a.reverse-text:active {
+  color: #f8cc76;
+}
+.style-guide .tab-content .section-container .section-content .input-field-row {
+  clear: both;
+  display: block;
+  float: left;
+  margin-bottom: 10px;
+}
+.style-guide .tab-content .section-container .section-content .input-field-row input,
+.style-guide .tab-content .section-container .section-content .input-field-row span {
+  display: inline;
+  float: left;
+  margin-right: 15px;
+}
+.style-guide .tab-content .section-container .section-content .input-field-row p {
+  display: inline;
+  float: left;
+  line-height: 32px;
+}
+.style-guide .tab-content .section-container .section-content .input-field-row.one-pie p {
+  margin-left: 175px;
+}
+.style-guide .tab-content .section-container .section-content .header-main.sg-header .span3 {
+  width: 206px;
+}
+.style-guide .tab-content .section-container .section-content .header-main.sg-header .top-user-details {
+  margin-left: 0px;
+  margin-top: 4px;
+}
+.style-guide .tab-content .section-container .section-content .header-main.sg-header .top-user-details .user-details {
+  margin-right: 10px;
+}
+.style-guide .tab-content .section-container .section-content .header-main.sg-header .logo a {
+  margin-left: 20px;
+}
+.style-guide .tab-content .section-container .section-content #navbar-main .navbar-inner ul.dropdown {
+  margin: 0px;
+}
+.style-guide .tab-content .section-container .section-content #navbar-main .navbar-inner ul.dropdown .dropdown-menu ul li {
+  border-bottom: 0px;
+}
+.style-guide .tab-content .section-container .section-content #navbar-main .navbar-inner ul.dropdown .dropdown-menu ul li a {
+  padding-left: 12px;
+}
+.style-guide .tab-content .section-container .section-content .breadcrumb li {
+  border-bottom: 0px;
+}
+.style-guide .tab-content .section-container .section-content .endurance-pricing h2.header {
+  color: #333;
+}
+.style-guide .tab-content .section-container .section-content .toolbar .nav-pills > li {
+  line-height: 24px;
+}
+.style-guide .tab-content .section-container .section-content .toolbar .nav-pills li .dropdown-toggle .caret {
+  margin: 10px 0 0 5px;
+}
+.style-guide .tab-content .section-container .section-content .toolbar .nav-pills li #search-filter-container.dropdown-menu {
+  margin: 0 0 0 552px;
+}
+.style-guide .tab-content .section-container .section-content input.focused {
+  background: transparent;
+}
+.style-guide .tab-content .section-container .section-content .get-event-alerts-btn {
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+.style-guide .tab-content .section-container .section-content .get-event-alerts-btn .icon-uniA100 {
+  color: #e8a21b;
+}
+.style-guide .tab-content .section-container .section-content .get-event-alerts-btn:active {
+  text-decoration: underline;
+  color: #155f85;
+}
+.style-guide .tab-content .section-container .section-content .get-event-alerts-btn:hover {
+  text-decoration: underline;
+  color: #155f85;
+}
+.style-guide .tab-content .section-container .section-content .get-event-alerts-btn:hover .icon-uniA100 {
+  color: #f5b53a;
+}
+.style-guide .tab-content .section-container .section-content .get-event-alerts-btn > h5 {
+  color: #2191cb;
+  padding: 2px 0px 0 0;
+  width: 112px;
+}
+.style-guide .tab-content .section-container .section-content .get-event-alerts-btn > span[class^="icon-"] {
+  top: -4px;
+}
+.style-guide .tab-content .section-container .section-content .header-main-mod-2 .nav-login {
+  padding-left: 6px;
+}
+.style-guide .tab-content .section-container .section-content .header-main-mod-2 .user-email a {
+  color: #f5ba46;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+.style-guide .tab-content .section-container .section-content .header-main-mod-2 .dropdown-menu {
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 0px;
+  padding: 10px 0;
+}
+.style-guide .tab-content .section-container .section-content .header-main-mod-2 .dropdown-menu a {
+  font-size: 12px;
+  text-transform: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: .2em .6em;
+  line-height: 1.5em;
+  display: block;
+  color: #222222;
+}
+.style-guide .tab-content .section-container .section-content .header-main-mod-2 .dropdown-menu a:hover {
+  background-color: #f5ba46;
+  color: #222222;
+}
+.style-guide .tab-content .section-container .progress-row {
+  display: none;
+}
+.style-guide .tab-content .section-container .progress-row .progress-text h2 {
+  color: #555;
+  line-height: 24px;
+  font-size: 24px;
+  width: auto;
+  margin: -3px 0px 0px 8px;
+  padding: 0px;
+}
+.style-guide .tab-content .section-container .nav-tabs > .active > a:after,
+.style-guide .tab-content .section-container .nav-tabs > .active > a:hover:after {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #eea821;
+  content: "";
+  display: block;
+  margin: 0 auto -5px;
+  opacity: 100;
+  position: relative;
+  top: 8px;
+  width: 0;
+}
+.style-guide .tab-content .section-container .message-bar span:hover {
+  cursor: pointer;
+}
+.style-guide .tab-content .section-container #popular-events-near-you header h2 {
+  color: #333;
+  padding: 3px 0 8px;
+}
+.style-guide .tab-content .section-container #popular-events-near-you .other-links .inline li {
+  width: auto;
+}
+.style-guide .tab-content .section-container #popular-events-near-you .other-links .inline li:hover {
+  background: none !important;
+}
+.style-guide .tab-content .section-container #popular-events-near-you .other-links .inline li:hover .title {
+  float: left;
+}
+.style-guide .tab-content .section-container #popular-events-near-you .other-links .inline li:hover h5 {
+  padding-top: 6px;
+  display: inline-block;
+  text-transform: none;
+  float: left;
+}
+.style-guide .tab-content .section-container #popular-events-near-you .other-links .inline li:hover i {
+  left: 0px;
+  margin: 12px 0 0 9px !important;
+  top: 0px;
+}
+.style-guide .tab-content .section-container #popular-events-near-you .other-links .inline .location-input {
+  margin: 4px 0 0 10px;
+  z-index: 999999;
+}
+.style-guide .tab-content .section-container #popular-events-near-you .location {
+  margin-top: 0px;
+  width: auto;
+  float: none;
+}
+.style-guide .tab-content .section-container #popular-events-near-you .location .title {
+  float: left;
+}
+.style-guide .tab-content .section-container .dates {
+  display: block;
+  height: 188px;
+}
+.style-guide .tab-content .section-container .content-area {
+  background: #EEE;
+  height: 200px;
+}
+/* Page modification */
+.a3_style_guide {
+  background-image: url();
+  background-color: #f9f9f9;
+}
+.a3_style_guide #header-normal .profile,
+.a3_style_guide #header-normal .header-search,
+.a3_style_guide #header-normal .nav-collapse {
+  display: none;
+}
+.a3_style_guide #header-normal .logo .style-guide-logo {
+  display: inline !important;
+  left: 197px;
+  position: relative;
+  top: -40px;
+}
+#gc1 {
+  background: transparent;
+  display: block;
+  position: absolute;
+  top: 291px;
+  width: 100%;
+  height: 951px;
+}
+#gc1 .grid-container {
+  width: 980px;
+  height: 951px;
+  display: block;
+  top: 0px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+#gc1 .grid-container .span1 {
+  background-color: rgba(255, 0, 0, 0.6);
+  height: 951px;
+}
+/* IE fixes */
+.ie7 .a3_style_guide .download-btn {
+  clear: none;
+  display: inline;
+  float: none;
+  padding-right: 10px;
+}
+.ie7 .a3_style_guide .download-btn a {
+  float: right;
+  margin: -50px 10px 0 0;
+  color: #fff;
+}
+.ie7 .a3_style_guide .download-btn a:hover {
+  color: #222;
+}
+.ie7 .a3_style_guide .toolbar .nav-pills li #search-filter-container.dropdown-menu {
+  margin: 3px 0 0 552px;
+}
+.ie7 .a3_style_guide .toolbar .nav-pills li .dropdown-toggle .caret {
+  margin-top: 5px;
+}
+.ie7 .a3_style_guide .header-main-mod-2 > a {
+  outline: none;
+}
+.ie7 .a3_style_guide .header-main-mod-2 .dropdown-toggle {
+  padding-bottom: 6px;
+}
+.ie7 .a3_style_guide .header-main-mod-2 .dropdown-toggle .caret {
+  margin-top: 7px;
+}
+.ie7 .a3_style_guide .header-main-mod-2 .dropdown-menu {
+  margin-top: 3px;
+}
+.ie7 .a3_style_guide .font-display-block .font-display-row {
+  float: none !important;
+}
+.ie7 .a3_style_guide .font-display-block .font-display-row p {
+  width: 420px;
+}
+.ie7 .a3_style_guide #filters {
+  width: 160px;
+}
+.ie7 .a3_style_guide #filters [class^="icon-uni"] {
+  position: relative;
+  top: 2px;
+}
+.ie7 .a3_style_guide .pad-top {
+  margin-top: 20px;
+}
+.ie7 .a3_style_guide .most-popular .location .title h5 {
+  display: inline !important;
+}
+.ie7 .a3_style_guide .most-popular .location .title i {
+  margin-left: 9px !important;
+}
+.ie7 .a3_style_guide .ui-datepicker {
+  width: 187px !important;
+}
+.ie7 .a3_style_guide #toggle-grid-btn {
+  display: none;
+}
+.ie8 .a3_style_guide .download-btn a {
+  color: #fff;
+}
+.ie8 .a3_style_guide .download-btn a:hover {
+  color: #222;
+}
+.ie8 .a3_style_guide #filters [class^="icon-"] {
+  position: relative;
+  top: 1px;
+}
+.ie9 .a3_style_guide .download-btn a {
+  color: #fff;
+}
+.ie9 .a3_style_guide .download-btn a:hover {
+  color: #222;
+}
+.ie9 .a3_style_guide #filters [class^="icon-"] {
+  position: relative;
+  top: 1px;
+}
+.ie9 .a3_style_guide .most-popular .location:hover {
+  padding-bottom: 1px;
+}
+.ie9 .a3_style_guide .most-popular .location .title h5 {
+  padding-top: 7px;
+}
+.ie9 .a3_style_guide .most-popular .location .title i {
+  margin-left: 5px !important;
+}
+/* Mozila */
+.mozilla .download-btn a {
+  color: #fff;
+}
+.mozilla .download-btn a:hover {
+  color: #222;
+}
+/* Mixins */
+.yellow-btn-fix {
+  color: #fff;
+}
+.yellow-btn-fix:hover {
+  color: #222;
+}

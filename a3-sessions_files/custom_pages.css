@@ -1,0 +1,33 @@
+#edit-page {
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  z-index: 2;
+}
+#edit-page h2 {
+  padding: 0;
+  color: #fff;
+}
+#path_templateSelectBoxIt {
+  color: #222;
+}
+#cms_flyout h2 {
+  margin-left: -20px;
+}
+#edit-page-link {
+  position: fixed;
+  top: 350px;
+  right: 0px;
+  background-color: #222;
+  color: #fff;
+  padding: 10px 15px 0 10px;
+  margin: 0 -41px 0 0;
+  -webkit-transform: rotate(90deg);
+}
+#edit-page-link span {
+  color: #f5ba46;
+}

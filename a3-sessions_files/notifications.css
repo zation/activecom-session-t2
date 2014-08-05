@@ -1,0 +1,228 @@
+/*Active Notifactions*/
+#alert-container {
+  position: relative;
+}
+.alert-counter-wrapper {
+  display: none;
+  margin: 4px 5px 0 0;
+  cursor: pointer;
+}
+.alert-counter-wrapper .alert-counter {
+  background: #e8a21b;
+  border: 0px;
+  color: #FFF;
+  display: inline;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  letter-spacing: .02em;
+  line-height: 18px;
+  padding: 2px 4px;
+  text-transform: uppercase;
+  -webkit-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -moz-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -ms-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -o-transition: color 0.1s linear, border-bottom 0.1s linear;
+  transition: color 0.1s linear, border-bottom 0.1s linear;
+}
+.alert-counter-wrapper .notch {
+  display: inline;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  content: "";
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 5px solid #e8a21b;
+  position: relative;
+  top: -1px;
+  left: -50%;
+  margin-right: 0px;
+  -webkit-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -moz-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -ms-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -o-transition: color 0.1s linear, border-bottom 0.1s linear;
+  transition: color 0.1s linear, border-bottom 0.1s linear;
+}
+.alert-counter-wrapper:hover .alert-counter {
+  background-color: #f5b53a;
+  color: #222222;
+}
+.alert-counter-wrapper:hover .notch {
+  border-top-color: #f5b53a ;
+}
+.alert-counter-wrapper:active .alert-counter {
+  background-color: #f6c25c;
+  color: #FFFFFF;
+}
+.alert-counter-wrapper:active .notch {
+  border-top-color: #f6c25c ;
+}
+.alert-message-wrapper {
+  background: #f9f9f9;
+  border-width: 1px solid #DDD;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  display: none;
+  margin-left: 612px;
+  min-height: 40px;
+  position: absolute;
+  top: 30px;
+  width: 348px;
+  z-index: 40000;
+}
+.alert-message-wrapper.leaderpage {
+  top: 140px;
+}
+.alert-message-header {
+  background-color: #FFF;
+  border-bottom: 1px solid #DDD;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 10px;
+}
+.alert-message-header h6 {
+  display: inline;
+  text-transform: uppercase;
+  word-wrap: none;
+}
+.alert-message-header p {
+  margin: 0px;
+}
+.alert-message-header a {
+  color: #2191cb;
+  display: inline;
+  font-size: 12px;
+  -webkit-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -moz-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -ms-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -o-transition: color 0.1s linear, border-bottom 0.1s linear;
+  transition: color 0.1s linear, border-bottom 0.1s linear;
+}
+.alert-message-header a:hover {
+  color: #155f85;
+  text-decoration: underline;
+}
+.alert-message-header a:active {
+  color: #2191cb;
+  text-decoration: underline;
+}
+.alert-message-inner {
+  height: 100%;
+}
+.alert-message-inner .alert-message-list {
+  margin: 0px;
+  padding: 0px;
+}
+.alert-message-inner .alert-message-list .alert-message-item {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #DDD;
+  clear: both;
+  display: block;
+  float: left;
+  list-style: none;
+  width: 100%;
+}
+.alert-message-inner .alert-message-list .alert-message-item .alert-content {
+  padding: 10px 0;
+  display: block;
+  float: left;
+}
+.alert-message-inner .alert-message-list .alert-message-item .alert-content .icon-clock {
+  font-size: 24px;
+  color: #e8a21b;
+  padding: 0px 10px;
+}
+.alert-message-inner .alert-message-list .alert-message-item .alert-content .data-row {
+  width: 293px;
+  padding: 0 10px 0 0;
+}
+.alert-message-inner .alert-message-list .alert-message-item .alert-content .data-row p {
+  color: #555;
+  margin: 0px;
+  padding: 0 10px 0 0;
+  word-wrap: normal;
+}
+.alert-message-inner .alert-message-list .alert-message-item .alert-content .data-row p a {
+  color: #2191cb;
+  display: inline;
+  font-size: 12px;
+  -webkit-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -moz-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -ms-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -o-transition: color 0.1s linear, border-bottom 0.1s linear;
+  transition: color 0.1s linear, border-bottom 0.1s linear;
+}
+.alert-message-inner .alert-message-list .alert-message-item .alert-content .data-row p a:hover {
+  color: #155f85;
+  text-decoration: underline;
+}
+.alert-message-inner .alert-message-list .alert-message-item .alert-content .data-row p a:active {
+  color: #2191cb;
+  text-decoration: underline;
+}
+.alert-message-inner .alert-message-list .alert-message-item .alert-content .data-row p.date {
+  color: #999;
+}
+.alert-message-inner .alert-message-list .alert-message-item.viewed {
+  background-color: #FFF;
+}
+.alert-message-inner .alert-message-list .alert-message-item.viewed .alert-content .icon-clock {
+  color: #959595;
+}
+.alert-message-inner.mCustomScrollbar .mCSB_container {
+  margin-right: 0px;
+}
+.alert-message-inner.mCustomScrollbar .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background: #555;
+  width: 6px;
+}
+.alert-message-inner.mCustomScrollbar .mCSB_scrollTools .mCSB_draggerRail {
+  background: transparent;
+}
+.alert-message-footer {
+  background-color: #3c3c3c;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 10px;
+  text-align: center;
+}
+.alert-message-footer p a {
+  color: #f5ba46;
+  text-transform: uppercase;
+  -webkit-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -moz-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -ms-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -o-transition: color 0.1s linear, border-bottom 0.1s linear;
+  transition: color 0.1s linear, border-bottom 0.1s linear;
+}
+.alert-message-footer p a:hover,
+.alert-message-footer p a:active {
+  color: #f5ba46;
+  text-decoration: underline;
+}
+#user-info {
+  width: auto;
+}
+.nav-login > .span1 {
+  display: none;
+}
+.nav-login > .span4 {
+  width: auto;
+  margin: 0 0 25px 0px;
+  float: right;
+}
+.nav-login > .span4 .user-email {
+  display: block;
+}
+.transitions {
+  -webkit-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -moz-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -ms-transition: color 0.1s linear, border-bottom 0.1s linear;
+  -o-transition: color 0.1s linear, border-bottom 0.1s linear;
+  transition: color 0.1s linear, border-bottom 0.1s linear;
+}
+.large_notification {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
