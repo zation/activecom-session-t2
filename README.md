@@ -6,5 +6,3 @@ lActivecom testing code playgroud example
   3. fix icons
   4. refactor javascript	
 
-  #h1
-  ##h2
