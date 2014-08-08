@@ -164,3 +164,7 @@
         width: 185px;
     }
 }
+
+.session_register_info h4 {
+    margin-bottom: 7px;
+}
