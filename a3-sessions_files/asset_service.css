@@ -108,6 +108,7 @@
     background-color: #f5f5f5;
     border-top: 1px solid #f5f5f5;
     margin-bottom: 20px;
+
 }
 
 .ak-session p {
@@ -124,7 +125,7 @@
 
 .ak-session .distance {
     float: right;
-    padding: 16px;
+    padding: 20px 20px 16px;
     color: #88bc29;
     font-size: 14px;
 }
@@ -134,7 +135,7 @@
 }
 
 .ak-session .schedule {
-    padding-left: 12px;
+    padding-left: 20px;
 }
 
 .ak-session .details {
@@ -145,7 +146,7 @@
 .ak-session .details .expand-button {
     color: #2191cb;
     padding-bottom: 5px;
-    padding-left: 12px;
+    padding-left: 20px;
     background-color: #e5e5e5;
 }
 
@@ -156,4 +157,10 @@
 
 .ak-session.expanded {
     background-color: #ffffff;
+}
+
+@media only screen and (min-width: 480px) {
+    .register-panel {
+        width: 185px;
+    }
 }
