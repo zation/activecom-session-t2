@@ -143,6 +143,11 @@
     background-color: #ffffff;
 }
 
+.ak-session .details .collapsible {
+    padding: 20px;
+    visibility: visible;
+}
+
 .ak-session .details .expand-button {
     color: #2191cb;
     padding-bottom: 5px;
