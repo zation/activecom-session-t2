@@ -126,6 +126,7 @@
     padding: 20px 20px 16px;
     color: #88bc29;
     font-size: 14px;
+    text-transform: capitalize;
 }
 
 .ak-session .price-change {
