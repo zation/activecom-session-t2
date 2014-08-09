@@ -2095,8 +2095,8 @@ table .span24 {
 }
 @font-face {
   font-family: 'active';
-  src: url('/fonts/active.eot?4nzisl');
-  src: url('/fonts/active.eot?#iefix4nzisl') format('embedded-opentype'), url('/fonts/active.woff?4nzisl') format('woff'), url('/fonts/active.ttf?4nzisl') format('truetype'), url('/fonts/active.svg?4nzisl#active') format('svg');
+  src: url('./fonts/active.eot?4nzisl');
+  src: url('./fonts/active.eot?#iefix4nzisl') format('embedded-opentype'), url('./fonts/active.woff?4nzisl') format('woff'), url('./fonts/active.ttf?4nzisl') format('truetype'), url('./fonts/active.svg?4nzisl#active') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -2136,7 +2136,7 @@ table .span24 {
   content: "\e001";
 }
 .icon-uniH100:before {
-  content: "\e002";
+  content: "\f007";
 }
 .icon-uniI1400:before {
   content: "\e04e";
@@ -2163,13 +2163,13 @@ table .span24 {
   content: "\e004";
 }
 .icon-uniK600:before {
-  content: "\e005";
+  content: "\f073";
 }
 .icon-uniK500:before {
-  content: "\e006";
+  content: "\f124";
 }
 .icon-uniK400:before {
-  content: "\e007";
+  content: "\f017";
 }
 .icon-uniK300:before {
   content: "\e008";
@@ -2199,7 +2199,8 @@ table .span24 {
   content: "\e010";
 }
 .icon-uniI800:before {
-  content: "\e011";
+  content: "\f015";
+  font-size: 16px;
 }
 .icon-uniI700:before {
   content: "\e012";
@@ -2331,7 +2332,10 @@ table .span24 {
   content: "\e03c";
 }
 .icon-uniC100:before {
-  content: "\e03d";
+  content: "\f055";
+}
+.icon-uniC800:before {
+    content: "\f056";
 }
 .icon-uniB500:before {
   content: "\e03e";

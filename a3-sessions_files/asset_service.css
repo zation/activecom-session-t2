@@ -117,9 +117,7 @@
 
 .ak-session .collapser-icon,
 .ak-session [class^="icon-"] {
-    font-size: 21px;
-    top: 3px;
-    position: relative;
+    font-size: 14px;
     padding-right: 5px;
 }
 
@@ -150,8 +148,7 @@
 
 .ak-session .details .expand-button {
     color: #2191cb;
-    padding-bottom: 5px;
-    padding-left: 20px;
+    padding: 5px 20px;
     background-color: #e5e5e5;
 }
 
