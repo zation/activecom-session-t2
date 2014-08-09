@@ -157,6 +157,10 @@
     text-decoration: none;
 }
 
+.ak-session .register-section {
+    margin-bottom: 13px;
+}
+
 .ak-session.expanded {
     background-color: #ffffff;
 }
