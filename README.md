@@ -1,4 +1,4 @@
-lActivecom testing code playgroud example
+Activecom testing code playgroud example
 
 ##TODO:
   1. Fix font issues
@@ -6,6 +6,6 @@ lActivecom testing code playgroud example
   3. fix icons
   4. refactor javascript	
   5. content from http://www.active.com/ca/memberships/active-advantage-membership-2015
-     - take header and search section, clear out body and replace with mockup content from file: and make it responsive
+     - take header and search section, clear out body and replace with mockup content from file: mock-app-1.jpg and make it responsive
      - use same footer from url.
 
