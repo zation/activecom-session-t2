@@ -24,8 +24,6 @@
 
   .title {
     color: #0589C7;
-    max-width: 370px;
-    margin-top: 130px;
 
     .sub-title {
       display: block;
@@ -33,12 +31,6 @@
       font-size: 12px;
       line-height: 12px;
       margin-top: 10px;
-      padding-left: 77px;
-    }
-
-    .logo {
-      float: left;
-      margin-right: 20px;
     }
   }
 
@@ -53,23 +45,32 @@
   }
 }
 
+@media (min-width: 767px) {
+  .ad-item {
+    .title {
+      margin-top: 130px;
+      max-width: 370px;
+
+      .logo {
+        float: left;
+        margin-right: 20px;
+      }
+
+      .sub-title {
+        padding-left: 77px;
+      }
+    }
+  }
+}
+
 @media (max-width: 767px) {
   .ad-item {
     padding: 0 20px;
 
     .title {
-      margin-top: 0;
-      max-width: none;
-
       .logo {
-        float: none;
-        margin-right: 0;
         margin-top: -5px;
         width: 30px;
-      }
-
-      .sub-title {
-        padding-left: 0;
       }
     }
 
