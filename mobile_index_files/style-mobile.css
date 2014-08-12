@@ -4,10 +4,13 @@
 .ad-item.even {
   background: #F5F5F5;
 }
-.ad-item.even .ad-side-image {
+.ad-item.even .ad-side-image img {
   top: -33px;
 }
-.ad-item .ad-side-image {
+.ad-item.odd .ad-side-image {
+  float: right;
+}
+.ad-item .ad-side-image img {
   position: relative;
   margin-top: -19px;
 }
@@ -30,10 +33,33 @@
 }
 .ad-item .buttons {
   list-style: none;
-  margin-left: 75px;
-  margin-top: 10px;
+  margin: 10px 0 30px 75px;
 }
 .ad-item .buttons li {
   float: left;
   margin-right: 10px;
+}
+@media (max-width: 767px) {
+  .ad-item {
+    padding: 0 20px;
+  }
+  .ad-item .title {
+    margin-top: 0;
+    max-width: none;
+  }
+  .ad-item .title .logo {
+    float: none;
+    margin-right: 0;
+    margin-top: -5px;
+    width: 30px;
+  }
+  .ad-item .title .sub-title {
+    padding-left: 0;
+  }
+  .ad-item .buttons {
+    margin-left: 0;
+  }
+}
+.text-center {
+  text-align: center;
 }

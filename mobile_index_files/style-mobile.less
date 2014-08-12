@@ -6,12 +6,18 @@
   &.even {
     background: #F5F5F5;
 
-    .ad-side-image {
+    .ad-side-image img {
       top: -33px;
     }
   }
 
-  .ad-side-image {
+  &.odd {
+    .ad-side-image {
+      float: right;
+    }
+  }
+
+  .ad-side-image img {
     position: relative;
     margin-top: -19px;
   }
@@ -38,13 +44,42 @@
 
   .buttons {
     list-style: none;
-    margin-left: 75px;
-    margin-top: 10px;
+    margin: 10px 0 30px 75px;
 
     li {
       float: left;
       margin-right: 10px;
     }
   }
-
 }
+
+@media (max-width: 767px) {
+  .ad-item {
+    padding: 0 20px;
+
+    .title {
+      margin-top: 0;
+      max-width: none;
+
+      .logo {
+        float: none;
+        margin-right: 0;
+        margin-top: -5px;
+        width: 30px;
+      }
+
+      .sub-title {
+        padding-left: 0;
+      }
+    }
+
+    .buttons {
+      margin-left: 0;
+    }
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
