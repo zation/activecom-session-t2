@@ -4,3 +4,36 @@
 .ad-item.even {
   background: #F5F5F5;
 }
+.ad-item.even .ad-side-image {
+  top: -33px;
+}
+.ad-item .ad-side-image {
+  position: relative;
+  margin-top: -19px;
+}
+.ad-item .title {
+  color: #0589C7;
+  max-width: 370px;
+  margin-top: 130px;
+}
+.ad-item .title .sub-title {
+  display: block;
+  color: #333;
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 10px;
+  padding-left: 77px;
+}
+.ad-item .title .logo {
+  float: left;
+  margin-right: 20px;
+}
+.ad-item .buttons {
+  list-style: none;
+  margin-left: 75px;
+  margin-top: 10px;
+}
+.ad-item .buttons li {
+  float: left;
+  margin-right: 10px;
+}
