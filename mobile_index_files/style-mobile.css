@@ -46,15 +46,16 @@
   }
 }
 @media (max-width: 767px) {
-  .ad-item {
-    padding: 0 20px;
-  }
   .ad-item .title .logo {
     margin-top: -5px;
     width: 30px;
   }
   .ad-item .buttons {
     margin-left: 0;
+  }
+  .ad-item .title,
+  .ad-item .buttons {
+    padding: 0 14px;
   }
 }
 .text-center {
