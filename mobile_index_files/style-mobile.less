@@ -74,16 +74,40 @@
 
     .buttons {
       margin-left: 0;
+
+      .learn-more {
+        float: none;
+        margin-top: 35px;
+      }
     }
 
     .title,
     .buttons {
       padding: 0 14px;
     }
+
+    .powered-by {
+      position: relative;
+      bottom: 65px;
+      left: 200px;
+    }
+
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .hidden-phone {
+    display: none;
   }
 }
 
-.text-center {
-  text-align: center;
+@media (max-width: 480px) {
+  .ad-item {
+    .powered-by {
+      left: 134px;
+    }
+  }
 }
 

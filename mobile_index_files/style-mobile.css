@@ -53,11 +53,28 @@
   .ad-item .buttons {
     margin-left: 0;
   }
+  .ad-item .buttons .learn-more {
+    float: none;
+    margin-top: 35px;
+  }
   .ad-item .title,
   .ad-item .buttons {
     padding: 0 14px;
   }
+  .ad-item .powered-by {
+    position: relative;
+    bottom: 65px;
+    left: 200px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .hidden-phone {
+    display: none;
+  }
 }
-.text-center {
-  text-align: center;
+@media (max-width: 480px) {
+  .ad-item .powered-by {
+    left: 134px;
+  }
 }
